@@ -1,0 +1,81 @@
+.todo-app {
+  width: 400px;
+  margin: 50px auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #ccc;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header form {
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+}
+
+.header input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+  outline: none;
+  margin-right: 10px;
+}
+
+.header button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  color: white;
+  cursor: pointer;
+}
+
+.todos {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.todo {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 1px 5px #ccc;
+  text-align: left;
+}
+
+.todo-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.todo-text.completed {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
